@@ -5,11 +5,33 @@
 	height: 42px;
 }
 
-h1 {
-	position: center;
-}
-
 .LeftSidebar{
 	float: left;
-	width: 25%
+	width: 20%;
+	font-family: Arial;
+	color: #004D40;
 }
+
+.RightSidebar{
+	float: right;
+	font-family: Arial;
+	width: 25%;
+}
+
+.body {
+	font-family: "Arial", "Verdana", "Sans";
+}
+
+h1 {
+	font-family: Arial;
+	color: #009688;
+	text-align: center;
+}
+
+#AboutMeIntro {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+}
+
