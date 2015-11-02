@@ -1,0 +1,15 @@
+#logo {
+	float: left;
+	position: fixed;
+	width: 42px;
+	height: 42px;
+}
+
+h1 {
+	position: center;
+}
+
+.LeftSidebar{
+	float: left;
+	width: 25%
+}
