@@ -5,6 +5,11 @@
 	height: 42px;
 }
 
+body {
+	font-family: "Arial", "Verdana", "Sans";
+	background-color: #E0E0E0;
+}
+
 .LeftSidebar{
 	float: left;
 	width: 20%;
@@ -18,14 +23,13 @@
 	width: 25%;
 }
 
-.body {
-	font-family: "Arial", "Verdana", "Sans";
-	background-color: #E0E0E0;
-}
-
 h1 {
 	font-family: Arial;
 	color: #009688;
+	text-align: center;
+}
+
+h3 {
 	text-align: center;
 }
 
@@ -42,8 +46,27 @@ h1 {
 	text-align: center;
 }
 
+.CSSpics {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
 #calculator {
 	width: 30%;
 
 }
+
+form {
+	display: block;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
 

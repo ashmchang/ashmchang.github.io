@@ -5,25 +5,44 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<a name="topOfPage">
 	<div class = header>
-		<img src="logo.png" alt="AMC logo" id="logo">
+		<a href="#topOfPage"><img src="logo.png" alt="AMC logo" id="logo"></a>
 		<h1>Ashley Chang</h1>
 	</div>
 
 	<div class = LeftSidebar>
-		<p>This will be site nav</p>
+		<div>
+			<a href="#About">About</a>
+		</div>
+		<div>
+			<a href="#Portfolio">Portfolio</a>
+		</div>
+		<div>
+			<a href="#Contact">Contact</a>
+		</div>
 	</div>
 
-	<div class = body>
+	<div class = "body">
 	<img src="selfie.jpg"/>
+	<a name="About"/>
 	<p id = "AboutMeIntro">I recently graduated from UC Davis and moved to San Francisco. I'm currently working for a startup doing API Documentation, and would love to start doing more technical projects. In my free time I love exploring San Francisco and anything outdoors!</p>
 
-	<div class = portfolio>
-	<h3>Portfolio</h3>
-	<p>A calculator!</p>
+	<div class = "portfolio">
+	<a name="Portfolio"/>
+	<h2>Portfolio</h2>
+	<h3>A calculator!</h3>
 	<a href="https://github.com/ashmchang/calculator-exercise"><img src="calcpic.png" id="calculator" /></a>
 	</div>
 
+	<h3>CSS Challenge using <a href="https://source.unsplash.com/?ref=producthunt">Unsplash API</a></h3>
+	<div>
+		<a href="https://github.com/ashmchang/pairProgrammingGenerator"><img src="CSSC1.png" class="CSSpics"/></a>
+		<a href="https://github.com/ashmchang/pairProgrammingGenerator"><img src="CSSC2.png" class="CSSpics"/></a>
+		<a href="https://github.com/ashmchang/pairProgrammingGenerator"><img src="CSSC3.png" class="CSSpics"/></a>
+	</div>
+
+	<a name="Contact"/>
 	<h3>Contact</h3>
 	<form
 		action = "http://formspree.io/ashleymchang27@gmail.com"
@@ -33,11 +52,11 @@
 		<input name="name" type="text" id="name"/>
 		</div>
 		<div>
-		<label id="email">email</label>
+		<label id="email">Email</label>
 		<input name="email" type="text" id="email"/>
 		</div>
 		<div>
-		<label>message</label>
+		<label>Message</label>
 		<textarea name="message" id="message"></textarea>
 		</div>
 		<div>
