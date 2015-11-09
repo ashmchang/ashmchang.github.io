@@ -20,6 +20,7 @@
 
 .body {
 	font-family: "Arial", "Verdana", "Sans";
+	background-color: #E0E0E0;
 }
 
 h1 {
@@ -33,5 +34,16 @@ h1 {
 	margin-right: auto;
 	width: 50%;
 	text-align: center;
+}
+
+.portfolio{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#calculator {
+	width: 30%;
+
 }
 

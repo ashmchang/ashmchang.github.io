@@ -16,19 +16,33 @@
 
 	<div class = body>
 	<img src="selfie.jpg"/>
-	<p id = "AboutMeIntro">I recently graduated from UC Davis and moved to San Francisco. I'm currently working for a startup doing API Documentation, and would love to start doing more technical projects. In my free time I love exploring unique parts of San Francisco and anything outdoors!</p>
+	<p id = "AboutMeIntro">I recently graduated from UC Davis and moved to San Francisco. I'm currently working for a startup doing API Documentation, and would love to start doing more technical projects. In my free time I love exploring San Francisco and anything outdoors!</p>
+
+	<div class = portfolio>
+	<h3>Portfolio</h3>
+	<p>A calculator!</p>
+	<a href="https://github.com/ashmchang/calculator-exercise"><img src="calcpic.png" id="calculator" /></a>
+	</div>
 
 	<h3>Contact</h3>
 	<form
 		action = "http://formspree.io/ashleymchang27@gmail.com"
 		method="POST">
+		<div>
 		<label id="name">Name</label>
 		<input name="name" type="text" id="name"/>
+		</div>
+		<div>
 		<label id="email">email</label>
 		<input name="email" type="text" id="email"/>
+		</div>
+		<div>
 		<label>message</label>
 		<textarea name="message" id="message"></textarea>
+		</div>
+		<div>
 		<input type ="submit" value="Submit"/>
+		</div>
 	</form>
 	</div>
 
